@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="atmempresaconsultoria.cursoandroid.com.atmempresaconsultoria.EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/detalhe_empresa"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/empresa_detalhes"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="328dp"
+        android:layout_height="378dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/background_light"
+        android:padding="@dimen/paddin_padrao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte Leonardo Thieme e Caroline Duarte "
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
